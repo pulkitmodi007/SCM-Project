@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI/UX</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+  <link rel="stylesheet" href="2.css">
+</head>
+
+<body>
+  <div class="container">
+    <aside>
+
+      <div class="top">
+        <div class="logo">
+          <h2>Social<span class="danger">Pulse</span> </h2>
+        </div>
+        <div class="close" id="close_btn">
+          <span class="material-symbols-sharp">
+            close
+          </span>
+        </div>
+      </div>
+      <!-- end top -->
+      <div class="sidebar">
+
+        <a href="Dashbord.html">
+          <span class="material-symbols-sharp">grid_view </span>
+          <h3>Dashbord</h3>
+        </a>
+        <a href="content.html">
+          <span class="material-symbols-sharp">person_outline </span>
+          <h3>content</h3>
+        </a>
+        <a href="analytics.html">
+          <span class="material-symbols-sharp">insights </span>
+          <h3>Analytics</h3>
+        </a>
+        <a href="comments.html">
+          <span class="material-symbols-sharp">mail_outline </span>
+          <h3>Comments</h3>
+          <span class="msg_count">14</span>
+        </a>
+        <a href="search.html" class="active">
+          <span class="material-symbols-sharp">receipt_long </span>
+          <h3>Search</h3>
+        </a>
+
+
+        <!-- <a href="#">
+              <span class="material-symbols-sharp">settings </span>
+              <h3>settings</h3>
+           </a> -->
+
+        <a href="login.html">
+          <span class="material-symbols-sharp">logout </span>
+          <h3>logout</h3>
+        </a>
+
+
+
+      </div>
+
+    </aside>
+    <!-- --------------
+        end asid
+      -------------------- -->
+
+    <!-- --------------
+        start main part
+      --------------- -->
+
+    <main>
+
+
+
+
+      <h1>Search Any Youtube Channel</h1>
+
+
+      <div class="left">
+
+        <!-- start seling -->
+
+
+
+
+
+
+        <div class="search">
+          <span class="search-icon material-symbols-outlined"> search</span>
+          <input class="search-input" type="search" placeholder="Search">
+        </div>
+
+      </div>
+      <div class="recent_order">
+
+
+        <h2>Videos</h2>
+
+        <!-- Channel Search Results Table -->
+        <table id="channelTable">
+          <thead>
+            <tr>
+              <th>Channel Name</th>
+              <th>Thumbnail</th>
+            </tr>
+          </thead>
+          <tbody id="search-results">
+            <!-- Rows will be dynamically added here -->
+          </tbody>
+        </table>
+
+        <!-- Channel Details Table -->
+        <table id="channelDetailsTable">
+          <thead>
+            <tr>
+              <th>Channel Detail</th>
+              <th>Information</th>
+            </tr>
+          </thead>
+          <tbody id="channel-details">
+            <!-- Channel details will be dynamically added here -->
+          </tbody>
+        </table>
+      
+  </div>
+
+
+  <!-- end insights -->
+
+
+  </main>
+  <!------------------
+         end main
+        ------------------->
+
+  <!----------------
+        start right main 
+      ---------------------->
+  <div class="right">
+
+    <div class="top">
+      <button id="menu_bar">
+        <span class="material-symbols-sharp">menu</span>
+      </button>
+
+      <div class="theme-toggler">
+        <span class="material-symbols-sharp active">light_mode</span>
+        <span class="material-symbols-sharp">dark_mode</span>
+      </div>
+      <div class="profile">
+        <div class="info">
+          <p><b>Babar</b></p>
+          <p>Admin</p>
+          <small class="text-muted"></small>
+        </div>
+        <div class="profile-photo">
+          <img src="./images/profile-1.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+  <!-- <div class="item add_product">
+            <div>
+            <span class="material-symbols-sharp">add</span>
+            </div>
+     </div> -->
+  </div>
+
+
+  </div>
+
+
+
+  <script src="3.js"></script>
+</body>
+
+</html>
