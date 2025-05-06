@@ -264,6 +264,7 @@ b{
  main::-webkit-scrollbar {
   display: none;
 }
+ <!--Main-->
  main input {
   background-color: transparent;
   border: 0;
