@@ -279,7 +279,7 @@ b{
   margin-top: 1rem;
   width: 25%;
   min-height: 1%;
-  padding: 2%;
+  padding: 2%; /* Some padding to prevent content touching scrollbar */
  }
 
 main .insights{
